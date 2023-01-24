@@ -152,7 +152,8 @@ button
     width: 100%
     background-color: $color1
     border-radius: 30% 56% 99% 0% / 5% 9% 88% 77%
-.features-content
+.features-content 
+
   &__title
     padding-bottom: 48px
     color: $color2
@@ -174,6 +175,37 @@ button
     text-align: center
     font-size: $fs4
     line-height: $lh4
+// about
+.about
+  display: flex
+  position: relative
+  flex-direction: column
+  padding-top: 185px
+  padding-bottom: 185px
+  &__title
+    width: 765px
+    padding-bottom: 15px
+    font-size: $fs2
+    line-height: $lh1
+    color: $color2
+    font-weight: normal
+  &__image-interval
+    margin-right: 40px
+  &__description
+    width: 560px
+    padding-bottom: 30px
+    font-size: $fs3
+    line-height: $lh3
+    color: $color2
+    font-weight: normal
+  &__register
+    display: inline-block
+  &__animation
+    position: absolute
+    z-index: -100
+    width: 550px
+    top: 100px
+    right: -35px
 
 // cta block
 .cta
